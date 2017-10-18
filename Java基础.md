@@ -1,5 +1,7 @@
 # Java基础
 
+[TOC]
+
 
 
 ##### 1. 一个“.java”源文件中是否可以包括多个类（不是内部类）？有什么限制？
@@ -74,4 +76,12 @@ public void method(final StringBuffer param){}
 ##### 11. ["=="和equals方法究竟有什么区别？](http://www.cnblogs.com/findumars/p/3746878.html)
 
 ##### 12. [静态变量和实例变量的区别？](http://blog.csdn.net/u012110719/article/details/46334419)
+
+##### 13. 是否可以从一个static方法内部发出对非static方法的调用？
+
+```
+不可以，因为非static方法是要与对象关联在一起的，必须创建一个对象后，才可以在该对象上进行方法调用，而static方法调用的时候不需要创建对象，可以直接调用。也就是说，当一个static方法被调用时，可能还没有创建任何实例，如果从static方法发出对非static方法中发出对非static方法的调用，那个非static方法是关联到哪个对象上的呢？ 这个逻辑无法成立，所以，一个static方法内部无法发出对非static方法的调用。
+```
+
+##### 14. Integer与int的区别
 
