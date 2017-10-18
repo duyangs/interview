@@ -85,3 +85,19 @@ public void method(final StringBuffer param){}
 
 ##### 14. Integer与int的区别
 
+```
+	int是java提供的8种数据类型之一。java为每个原始类型提供封装类，integer是Java为int提供的分装类。int的默认值为0，而Integer的默认类型为null，即integer可以区分出未赋值和值为0的区别，int则无法表达出未赋值的情况，例如想要表达出没有参加考试和考试成绩为0的区别，则只能使用integer。在JSP开发中，integer的默认值为null，所以用el表达式在文本框中显示时，值为空白字符串，而int默认值为0，所以用el表达式在文本框中显示时，结果为0，所以，int不适合作为web层的表单数据的类型。
+	在hibernate中，如果将OID定义为integer类型，那么hibernate就可以根据其值是否为null而判断一个对象是否是临时的，如果将OID定义为了int类型，还需要在hbm映射文件中设置其unsaved-value属性为0.
+	另外，Integer提供了多个与整数相关的操作方法，例如，将一个字符串转换成整数，Integer中还定义了表示整数的最大值和最小值的常量。
+```
+
+##### 15. Math.round(11.5)等于多少？Math.round(-11.5)等于多少？
+
+```
+math类中提供了三个与取整相关的方法：ceil、floor、round，这些方法的作用与它们的英文名称相对应，
+	例如，
+	ceil的英文意义是天花板，该方法就表示向上取整，Math.ceil(11.3)的结果为12，Math.ceil(-11.3)的结果为-11；
+	floor的英文意义是地板，该方法就表示向下取整，Math.floor(11.6)的结果为11，Math.floor(-11.6)的结果是-12；
+	最难掌握的是round方法，它表示“四舍五入”，算法为math.floor(x+0.5),即将原来的数字加上0.5后再向下取整，所以，Math.round(11.5)的结果为12，Math.round(-11.5)的结果为-11.
+```
+
