@@ -101,3 +101,28 @@ math类中提供了三个与取整相关的方法：ceil、floor、round，这�
 	最难掌握的是round方法，它表示“四舍五入”，算法为math.floor(x+0.5),即将原来的数字加上0.5后再向下取整，所以，Math.round(11.5)的结果为12，Math.round(-11.5)的结果为-11.
 ```
 
+##### 16. 下面的代码有什么不妥之处？
+
+```
+1.if(username.equals("zxx"))
+username可能为NULL，会报空指针错误，改为“zxx".equals(username)
+2.int x=1;
+	return x==1?true:false;
+这个改成return x==1;就可以
+```
+
+##### 17. 请说出作用域public，private，protected，以及不写时的区别
+
+| 作用域       | 当前类  | 同一包(package) | 子孙类  | 其他包(package) |
+| --------- | ---- | ------------ | ---- | ------------ |
+| public    | ok   | ok           | ok   | ok           |
+| protected | ok   | ok           | ok   | no           |
+| friendly  | ok   | ok           | no   | no           |
+| private   | ok   | no           | no   | no           |
+
+```
+这四个作用域的可见范围如上表所示。
+说明：如果在修饰的元素上面没有写任何访问修饰符，则表示friendly。
+备注：只要记住了有4种访问权限，4个访问范围，然后将全选和范围在水平和垂直方向上分别安排从小到大或从大到小的顺序排列，就很容易画出上面的图了。
+```
+
