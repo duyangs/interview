@@ -4,9 +4,11 @@
 
 
 
-##### 1. [Can a ".java "source file contain multiple classes (not inner classes)? What are the limitations?
+##### 1. [Can a ".java "source file contain multiple classes (not inner classes)? What are the limitations?](https://github.com/duyangs/interview/blob/master/javaBase/Can%20a%20%22.java%20%22source%20file%20contain%20multiple%20classes%20(not%20inner%20classes)%3F%20What%20are%20the%20limitations%3F.md)
 
-##### 一个“.java”源文件中是否可以包含多个类（不是内部类）？有什么限制？]（dd）
+一个“.java”源文件中是否可以包含多个类（不是内部类）？有什么限制？
+
+
 
 ##### 2. Java有没有goto?
 
