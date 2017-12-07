@@ -1,9 +1,11 @@
-# 面试题集
+# The interview questions
 
-本项目在于收集整理Android方向的面试题型，长期跟新，欢迎 **star  fork**
+This project is to collect the interview questions in the direction of Android, long-term and new, welcome ***star***  or ***fork***
 
-如果你愿意 也可以加入
+You can join if you like
 
-- [Java基础](https://github.com/duyangs/interview/blob/master/javaBase/JavaBase.md)
+- [Java based](https://github.com/duyangs/interview/blob/master/javaBase/JavaBase.md)
+
+  ​
 
 
