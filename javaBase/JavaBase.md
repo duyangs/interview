@@ -1,4 +1,4 @@
-# Java基础
+# Java based
 
 [TOC]
 
@@ -8,11 +8,9 @@
 
 
 
-##### 2. Java有没有goto?
+##### 2. [Does Java have a "goto"?](https://github.com/duyangs/interview/blob/master/javaBase/Does%20Java%20have%20a%20%22goto%22%3F.md)
 
-```
-java中的保留字，现在没有在java中使用。
-```
+> Java有没有goto?
 
 ##### 3. 说说&和&&的区别。
 
