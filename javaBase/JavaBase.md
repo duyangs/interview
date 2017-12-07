@@ -8,19 +8,17 @@
 
 
 
-##### 2. [Does Java have a "goto"?](https://github.com/duyangs/interview/blob/master/javaBase/Does%20Java%20have%20a%20%22goto%22%3F.md)
+##### -  [Does Java have a "goto"?](https://github.com/duyangs/interview/blob/master/javaBase/Does%20Java%20have%20a%20%22goto%22%3F.md)
 
 > Java有没有goto?
 
-##### 3. 说说&和&&的区别。
 
-```
-	&和&&都可以用作逻辑与的运算符，表示逻辑与(and)，当运算符两边的表达式的结果都为true时，整个运算结果才为true，否则，只要一方为false，则结果为false。
-	&&还具有短路的功能，即如果第一个表达式为false，则不再计算第二个表达式，例如，对于if(str != null && !str.equals(""))表达式，当str为null时，后面的表达式不会执行，所以不会出现NullPointerException如果将&&改为&，则会抛出NullPointerExcepotion.
-	x=31 if(x == 33 & ++y>0) y会增长，if(x==33 && ++y>0) y不会增长。
-	&还可以用作位运算符，当&操作符两边的表达式不是boolean类型时，&表示按位与运算，我们通常使用0x0f来与一个整数进行&运算，来获取该整数的最低4个bit位，例如，0x31&0x0f的结果为0x01。
-	备注：这道题先说两者的共同点，再说出&&和&的特殊之处，并列举一些经典的例子来表明理解透彻深入、实际经验丰富。
-```
+
+##### - [Tell the difference between “&&” & “&”.]()
+
+> 说说&和&&的区别。
+
+
 
 ##### 4. [在Java中如何跳出当前的多重嵌套循环.](http://www.jianshu.com/p/55a604a3d7bc)
 
